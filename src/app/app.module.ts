@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
 import { RodapeComponent } from './componentes/rodape/rodape.component';
 import { PaginaInicialComponent } from './componentes/pagina-inicial/pagina-inicial.component';
-import { VisualizarTarefasComponent } from './componentes/visualizar-tarefas/visualizar-tarefas.component';
+import { VisualizarChamadosComponent } from './componentes/visualizar-chamados/visualizar-chamados.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { VisualizarTarefasComponent } from './componentes/visualizar-tarefas/vis
     CabecalhoComponent,
     RodapeComponent,
     PaginaInicialComponent,
-    VisualizarTarefasComponent
+    VisualizarChamadosComponent
   ],
   imports: [
     BrowserModule,
