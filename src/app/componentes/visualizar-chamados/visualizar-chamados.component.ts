@@ -8,7 +8,7 @@ import {ChamadoService} from "../../app-core/servicos/chamado-service.service";
 })
 export class VisualizarChamadosComponent implements OnInit {
 
-  constructor(private tarefaService: ChamadoService) { }
+  constructor(private chamadoService: ChamadoService) { }
 
   ngOnInit(): void {
   }
